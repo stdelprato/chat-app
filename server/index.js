@@ -7,8 +7,8 @@ app.use(cors())
 app.use(express.json())
 
 
-const server = app.listen('8080', () => {
-    console.log("Server running on port 8080")
+const server = app.listen('80', () => {
+    console.log("Server running on port 80")
 })
 
 

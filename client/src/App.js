@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css';
 
 let socket;
-const CONNECTION_PORT = 'localhost:8080/';
+const CONNECTION_PORT = 'localhost:80/';
 
 function App() {
 
